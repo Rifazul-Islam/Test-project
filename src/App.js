@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import{Button} from '@mui/material'
+// import GoogleIcon from '@mui/icons-material/Google';
+// import Rating from '@mui/material/Rating';
+import Navber from './Pages/Navber';
+import Section1 from './Pages/Section1';
 
 function App() {
+   
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div >
+          <Navber></Navber>
+
+             <Section1></Section1>
+
+            <div>
+{/*        
+                    <Button> Sign Up </Button>
+
+                    <GoogleIcon color="primary" />
+
+                    <Rating
+        name="simple-controlled"
+       
+        onChange={(event, newValue) => {
+          
+        }}
+      /> */}
+            </div>
+
+        
+          
+       
+    </div> 
   );
 }
 

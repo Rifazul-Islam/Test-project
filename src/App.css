@@ -1,5 +1,16 @@
 .App {
-  text-align: center;
+ 
+display: grid;
+place-items: center;
+height: 100vh;
+
+}
+
+.makes{
+  background: #f7f7f7;
+  width:400px;
+  height:500px;
+  padding:2rem
 }
 
 .App-logo {
