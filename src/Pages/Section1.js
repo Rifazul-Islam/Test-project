@@ -11,7 +11,7 @@ const Section1 = () => {
               Fashions<b style={{color:"red"}}>Blog</b>
             </Typography>
             <Typography align='center' variant="body2" sx={{fontWeight:100}}>
-                We Make you Look the better of you!
+                My is Rifazul ISlam update my project and 
 
             </Typography>
 
